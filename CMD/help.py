@@ -10,7 +10,7 @@ def execute(message=None, sender_id=None):
     EXCLUDED_COMMANDS = {"__init__.py", "help.py", "imagine.py" "file.py", "install.py"}
 
     response = (
-        "📜KORA AI Command List📜\n\n"
+        "📜Kai Bot Command List📜\n\n"
         "Here are the available commands:\n\n"
         "╭────────────╮\n"
         "│   📂 Command Overview  │\n"
@@ -41,8 +41,8 @@ def execute(message=None, sender_id=None):
         "\n💡 How to Use Commands:\n"
         "   - Type `/command_name` to use a command.\n"
         "   - Example: `/up` to check the bot's status.\n\n"
-        "⚡ Thanks for using KORA AI! ⚡\n"
-        "   🛡️ Developed by Kolawole Suleiman\n"
+        "⚡ Thanks for using Kai Bot! ⚡\n"
+        "   🛡️ Developed by Sharma Zambara"\n"
     )
 
     return response
