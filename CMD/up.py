@@ -2,9 +2,9 @@ import app  # Import the main app to access `get_bot_uptime`
 
 # Description dictionary
 Info = {
-    "Description": "KORA AI Bot Status",
-    "bot_name": "KORA AI",
-    "owner": "Kolawole Suleiman",
+    "Description": "Kai Bot Status",
+    "bot_name": "Kai Bot",
+    "owner": "Sharma Zambara",
     "version": "v1.0",
     "purpose": "Provides assistance, information, and companionship.",
     "last_update": "January 10, 2025"
@@ -32,7 +32,7 @@ def execute(message=None, sender_id=None):
     # Visual and structured response
     response = (
         "╭───────────╮\n"
-        "│       🤖 KORA AI Status       │\n"
+        "│       🤖 Kai Bot Status       │\n"
         "╰───────────╯\n\n"
         f"🔷 Bot Name: {Info['bot_name']}\n"
         f"👤 Owner: {Info['owner']}\n"
@@ -42,7 +42,7 @@ def execute(message=None, sender_id=None):
         "⏳ Uptime:\n"
         f"   🕒 {uptime_str}\n\n"
         "╭────────────╮\n"
-        "│ 🙏 Thank you for using KORA AI! │\n"
+        "│ 🙏 Thank you for using Kai Bot! │\n"
         "╰────────────╯\n"
     )
 
